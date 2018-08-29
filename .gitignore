@@ -1,6 +1,7 @@
 *.log*
 
 .DS_STORE
+.idea
 .module-cache
 .vscode
 

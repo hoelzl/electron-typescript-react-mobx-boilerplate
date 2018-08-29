@@ -72,7 +72,7 @@ module.exports = {
                     addDependencyTo: webpack
                   }),
                   require('postcss-url')(),
-                  require('postcss-cssnext')(),
+                  require('postcss-preset-env')(),
                   require('postcss-reporter')(),
                   require('postcss-browser-reporter')({
                     disabled: isProduction
